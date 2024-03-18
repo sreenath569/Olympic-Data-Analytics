@@ -12,7 +12,7 @@ configs = {"fs.azure.account.auth.type": "OAuth",
 
 
 dbutils.fs.mount(
-source = "abfss://ctr-tokyo-olympic-data@satokyoolympic.dfs.core.windows.net", # contrainer@storageacc
+source = "abfss://container@storageaccount.dfs.core.windows.net", # contrainer@storageacc
 mount_point = "/mnt/tokyoolymic",
 extra_configs = configs)
 
